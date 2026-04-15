@@ -1,0 +1,16 @@
+/* Seção grande */
+.content {
+  background-color: #f2f2f2;
+  height: 1000px;
+  padding: 20px;
+}
+
+/* Menu mobile ocupa toda largura */
+#menu-mobile {
+  background-color: #ddd;
+}
+
+/* Centralizar itens do menu */
+#menu-mobile ul {
+  width: 100%;
+}
