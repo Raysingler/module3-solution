@@ -1,16 +1,64 @@
-/* Seção grande */
-.content {
-  background-color: #f2f2f2;
-  height: 1000px;
-  padding: 20px;
+body {
+  background-color: #4b0f1a;
+  color: #f5f5f5;
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* Menu mobile ocupa toda largura */
+/* NAVBAR */
+.custom-navbar {
+  background-color: #3a0c14;
+  border: none;
+}
+
+.navbar-brand {
+  color: #d4af37 !important;
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+/* BOTÃO MOBILE */
+.navbar-toggle {
+  border-color: #d4af37;
+}
+
+.icon-bar {
+  background-color: #d4af37 !important;
+}
+
+/* MENU MOBILE */
 #menu-mobile {
-  background-color: #ddd;
+  background-color: #5c1420;
 }
 
-/* Centralizar itens do menu */
-#menu-mobile ul {
-  width: 100%;
+#menu-mobile a {
+  color: white !important;
+  font-size: 18px;
+}
+
+/* TÍTULO */
+.titulo {
+  margin-top: 50px;
+  font-size: 48px;
+  color: #d4af37;
+  font-family: 'Playfair Display', serif;
+}
+
+.subtitulo {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #eee;
+}
+
+/* CONTEÚDO */
+.content {
+  background-color: #5c1420;
+  padding: 40px;
+  height: 1000px;
+  border-top: 3px solid #d4af37;
+}
+
+.content h2 {
+  color: #d4af37;
+  margin-bottom: 20px;
 }
